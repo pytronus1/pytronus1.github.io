@@ -47,8 +47,47 @@ nav{
     display: grid;
     margin: 0 auto;
     grid-template-columns: auto auto auto auto;
+    grid-column-gap: 1%;
+    grid-row-gap: 15px;
 }
+.post img{
+    width: 329px;
+    height: 239px;
+}
+.post img:hover{
+    width: 360px;
+    height: 260px;
+    transition: width 1s , height 1s ;
+    z-index: 1;
+}
+@media screen and ( max-width: 920px){
+    .header-container{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+    .header-container .logo{
+        display: block;
+        width: 116px;
+        height: 116px;
+        margin: 0 auto;
 
+    }
+    .main-menu{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .main-menu li a{
+        display: block;
+        margin: 0 auto;
+    }
+    .specialize-cards{
+        flex-wrap: wrap;
+    }
+    .posts{
+        grid-template-columns: auto auto;
+    }
+}
 
 @media screen and ( max-width: 420px){
     .header-container{
@@ -99,6 +138,12 @@ nav{
     .specialize-cards{
         display: flex;
         justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .posts{
+        grid-template-columns: auto;
+    }
+    .footer-menu{
         flex-wrap: wrap;
     }
 }
@@ -278,6 +323,7 @@ footer h4{
 .footer-container .contacts #folow{
     margin-top: 20px;
 }
+
 
 
 
