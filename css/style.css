@@ -60,6 +60,7 @@ nav{
     height: 260px;
     transition: width 1s , height 1s ;
     z-index: 1;
+    opacity: 0.5;
 }
 @media screen and ( max-width: 920px){
     .header-container{
