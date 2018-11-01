@@ -53,6 +53,7 @@ nav{
 .post img{
     width: 329px;
     height: 239px;
+    transition: opacity 1s ease-in-out;
 }
 .post img:hover{
     width: 360px;
