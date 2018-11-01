@@ -53,14 +53,14 @@ nav{
 .post img{
     width: 329px;
     height: 239px;
-    transition: opacity 1s ease-in-out;
+    
 }
 .post img:hover{
     width: 360px;
     height: 260px;
-    transition: width 1s , height 1s ;
+    transition: width 1s , height 1s, transform 2s ;
     z-index: 1;
-    opacity: 0.5;
+   
 }
 @media screen and ( max-width: 920px){
     .header-container{
