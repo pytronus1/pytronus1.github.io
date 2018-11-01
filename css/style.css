@@ -58,7 +58,6 @@ nav{
 .post img:hover{
     transform: scale (1.2, 1.2);
     z-index: 1;
-   
 }
 @media screen and ( max-width: 920px){
     .header-container{
